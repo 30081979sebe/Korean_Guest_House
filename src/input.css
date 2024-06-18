@@ -3,9 +3,3 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
-
-@font-face {
-    font-family: "Amarante-Regular";
-    src: url("/public/fonts/Amarante-Regular.ttf");
-  }

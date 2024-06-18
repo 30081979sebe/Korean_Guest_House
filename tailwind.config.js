@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,js,css}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        amarante: ['Amarante', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }

@@ -4,16 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&display=swap">
 </head>
 <body>
+                                            <! -- NavBar ->
     <nav class="bg-black flex items-center shadow-md flex-row rounded-md sticky top-0 max-w-full">
         <img src="/Images/Logo-Nav.png" alt="" class="mr-10 h-auto max-w-full">
-        <Ul class="flex flex-row space-x-4 font-medium bg-black mx-auto text-white max-w-full.h-auto font-Amarante-Regular">
+        <Ul class="flex flex-row space-x-4 text-2xl bg-black mx-auto text-white h-auto">
             <LI>
-                <a href="#">Acceuil</a>
+                <a href="#">Accueil</a>
             </LI>
             <LI>
                 <a href="#">Reservation</a>
@@ -25,50 +24,58 @@
                 <a href="#">Se connecter</a>
             </LI>
         </Ul>
-        <Div class="flex flex-row space-x-4 mr-10 justify-center">
-            <img width="40" height="40" src="https://img.icons8.com/badges/48/facebook-new.png" alt="facebook-new"/>
+        <Div class="flex flex-row space-x-2 mr-10 justify-center">
+            <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook--v1.png" alt="facebook--v1"/>
             <img width="40" height="40" src="https://img.icons8.com/external-regular-kawalan-studio/48/FFFFFF/external-instagram-social-media-regular-kawalan-studio.png" alt="external-instagram-social-media-regular-kawalan-studio"/>
-            <img width="40" height="40" src="https://img.icons8.com/badges/48/000000/pinterest.png" alt="pinterest"/>
+            <img width="40" height="40" src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/48/FFFFFF/external-stylish-p-logo-for-pinterest-app-for-cross-platform-devices-logo-regular-tal-revivo.png" alt="external-stylish-p-logo-for-pinterest-app-for-cross-platform-devices-logo-regular-tal-revivo"/>
         </Div>
     </nav>
-    <div class="flex flex-col items-center">
+    <main class="flex flex-col items-center">
         <div class="mx-auto w-5/6"> 
             <img src="/Images/Images_2.jpg" alt="" class="mt-5 w-full max-w-full.h-auto shadow-md border-solid ">
             <hr class="bg-yellow-600 mt-10 h-2">
         </div>
-        <div class="flex flex-row bg-slate-600 mt-10 items-center ">
-            <div class="bg-slate-400 w-1/3 rounded-md shadow-lg">
-                <div class="bg-yellow-600 h-2"></div>
-                <p >Nos maisons d'hôtes hanok sont situées dans des quartiers historiques et près de sites culturels, 
-                    permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p>     
-            </div>
-        </div>
-        <div class="flex bg-slate-600 flex-wrap mt-10">
-            <div class="bg-slate-400 w-1/3 rounded-md shadow-lg">
+        <div class="flex flex-row  mt-10 items-center justify-center">
+            <div class="bg-slate-400 w-1/4 rounded-md shadow-lg font text-lg text-center">
                 <div class="bg-yellow-600 h-2"></div>
                 <p>Nos maisons d'hôtes hanok sont situées dans des quartiers historiques et près de sites culturels, 
-                    permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p> 
+                    permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p>
+                <button class="-mt-8 select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 
+                disabled:shadow-none disabled:pointer-events-none text-xs py-5 rounded-lg bg-yellow-600 text-white shadow-md
+                 shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                type="button">
+                    Découvrir
+                </button>         
             </div>
-            <img src="" alt="">
-
+            <img src="https://picsum.photos/id/82/300/200" alt="">  
         </div>
-        <div class="flex bg-slate-600 flex-wrap mt-10 border-solid">
-            <div class="bg-slate-400 w-1/3 rounded-md shadow-lg">
+        </div>
+        <div class="flex flex-row-reverse mt-10 items-center justify-center">
+            <div class="bg-slate-400 w-1/4 rounded-md shadow-lg font text-base">
                 <div class="bg-yellow-600 h-2"></div>
                 <p>Nos maisons d'hôtes hanok sont situées dans des quartiers historiques et près de sites culturels, 
-                    permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p> 
+                    permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p>       
             </div>
-            <img src="" alt="">
+            <img src="https://picsum.photos/id/82/300/200" alt="">  
         </div>
-        <div class="flex bg-slate-600 flex-wrap mt-10">
-            <div class="bg-slate-400 w-1/3 rounded-md shadow-lg">
-                <div class="bg-yellow-600 h-4 p-6"></div>
+        <div class="flex flex-row  mt-10 items-center justify-center">
+            <div class="bg-slate-400 w-1/4 rounded-md shadow-lg font text-base h-12">
+                <div class="bg-yellow-600 h-2"></div>
                 <p>Nos maisons d'hôtes hanok sont situées dans des quartiers historiques et près de sites culturels, 
-                    permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p> 
+                    permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p>       
             </div>
-            <img src="" alt="">
+            <img src="https://picsum.photos/id/82/300/200" alt="">  
         </div>
-    </div>
+        <div class="flex flex-row  mt-10 items-center justify-center">
+            <div class="bg-slate-400 w-1/4 rounded-md shadow-lg font text-base">
+                <div class="bg-yellow-600 h-2"></div>
+                <p>Nos maisons d'hôtes hanok sont situées dans des quartiers historiques et près de sites culturels, 
+                    permettant aux visiteurs de plonger dans l'histoire et la beauté de la Corée.</p>       
+            </div>
+            <img src="https://picsum.photos/id/82/300/200" alt="">  
+        </div>
+    
+    </main>
     <Footer class="flex flex-row bg-black mt-10 FIX">
         <div class="text-white w-1/3 bg-black flex items-center justify-center">copyright</div>
         <div class="flex justify-center flex-col w-1/3 border-r-2 border-l-2 border-white ">
